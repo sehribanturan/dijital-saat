@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(108, 82, 159);
+    color:#fff;
+
+}
+
+.clock{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.clock h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.clock-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    align-content: center;
+    gap:30px;
+}
+.clock-items{
+    width: 32%;
+    background-color: #fff;
+    color:#000;
+    border-radius: 10px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Orbitron', sans-serif;
+   
+    font-size: 30px;
+}
